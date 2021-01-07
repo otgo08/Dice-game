@@ -68,7 +68,7 @@ document.querySelector(".btn-roll").addEventListener("click", function() {
         // 1 буусан тул тоглогчийн ээлжийг энэ хэсэгт сольж өгнө.
         switchToNextPlayer() }
     } else {
-        alert("Тоглоом дууссан байна. NEW GAME товчийг дарж шинээр эхлэнэ үү");
+        alert("Тоглоом дууссан байна. START GAME товчийг дарж дахин эхлэнэ үү");
     }
 });
 
