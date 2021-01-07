@@ -81,7 +81,7 @@ document.querySelector('.btn-hold').addEventListener('click', function() {
     // Дэлгэц дээр оноог нь өөрчилнө.
     document.getElementById('score-' + activePlayer).textContent = scores[activePlayer];
     //уг тоглогчийг хожсон эсэхийг (оноо нь 100-с их эсэх ) шалгах
-    if (scores[activePlayer] >= 10) {
+    if (scores[activePlayer] >= 100) {
         isNewGame = false ;
         //ялагч гэх нэрийг нь солино.
         document.getElementById('name-' + activePlayer).textContent = 'WINNER';
